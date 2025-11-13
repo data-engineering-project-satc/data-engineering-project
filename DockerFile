@@ -1,0 +1,21 @@
+# Usa imagem base com Python
+FROM python:3.11-slim
+
+# Instala o UV (gerenciador de pacotes ultrarrápido)
+RUN pip install --no-cache-dir uv
+
+# Define o diretório de trabalho
+WORKDIR /docs
+
+# Copia os arquivos de configuração do projeto
+COPY pyproject.toml ./
+# Copia o lockfile se existir
+COPY uv.lock ./
+# Instala as dependências listadas via UV
+RUN uv sync --frozen --no-cache || uv sync --no-cache
+
+# Expõe a porta padrão do MkDocs
+EXPOSE 8000
+
+# Comando padrão ao subir o container
+CMD ["uv", "run", "mkdocs", "serve", "-a", "0.0.0.0:8000"]
