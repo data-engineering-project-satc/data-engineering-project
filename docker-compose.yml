@@ -5,16 +5,3 @@ services:
     container_name: metabase
     ports:
       - "3000:3000"
-
-  mkdocs:
-    # build:
-    #   context: .
-    #   dockerfile: DockerFile
-    image: squidfunk/mkdocs-material
-    container_name: mkdocs
-    ports:
-      - "8000:8000"
-    volumes:
-      - ./docs:/docs
-    working_dir: /docs
-    command: serve -a 0.0.0.0:8000
