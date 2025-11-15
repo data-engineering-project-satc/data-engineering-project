@@ -7,6 +7,16 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
+pandas = "^2.3.3"
+psycopg2-binary = "^2.9.11"
+faker = "^38.0.0"
+numpy = "^2.0.0"
+openpyxl = "^3.1.0"
+python-dotenv = "^1.0.0"
+tqdm = "^4.65.0"
+requests = "^2.31.0"
+python-dateutil = "^2.8.0"
+pyyaml = "^6.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -27,3 +37,15 @@ pytest = "^8.2.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "faker>=38.0.0",
+    "pandas>=2.3.3",
+    "psycopg2-binary>=2.9.11",
+    "numpy>=2.0.0",
+    "openpyxl>=3.1.0",
+    "python-dotenv>=1.0.0",
+    "tqdm>=4.65.0",
+    "requests>=2.31.0",
+]
