@@ -1,110 +1,130 @@
-# Título do projeto
+# Data Engineering Project – MkDocs Template
 
-[![Lint & Tests](https://img.shields.io/github/actions/workflow/status/jlsilva01/projeto-ed-satc/ci.yml?branch=main)](https://github.com/jlsilva01/projeto-ed-satc/actions)  
-[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen.svg)](https://github.com/jlsilva01/projeto-ed-satc)  
-[![Docker Pulls](https://img.shields.io/docker/pulls/jlsilva01/projeto-ed-satc)](https://hub.docker.com/r/jlsilva01/projeto-ed-satc)  
-[![Docs](https://img.shields.io/badge/docs-mkdocs-blue)](https://jlsilva01.github.io/projeto-ed-satc/)  
+## 🚀 Visão Geral
 
+Este projeto fornece uma estrutura base para:
 
-Repositorio modelo para desenvolvimento do projeto final da disciplina de Engenharia de Dados do curso de Engenharia de Software da UNISATC.
+- Organização clean de projetos de Engenharia de Dados  
+- Documentação profissional utilizando **MkDocs + Material**  
+- Boas práticas com **pre-commit**, **linting** e **formatação**
+- Runners automatizados via **GitHub Actions**  
+- Estrutura inicial para pipelines, scripts e containers Docker  
 
-## Desenho de Arquitetura
+---
 
-Coloque uma imagem do seu projeto, como no exemplo abaixo:
+## 📁 Estrutura do Projeto
+
+```
+data-engineering-project/
+│
+├── data/
+│   └── (arquivos de dados ou diretórios de origem)
+│
+├── docker/
+│   └── (configurações de containers)
+|
+├── docs/
+│   └── (arquivos-fonte da documentação)
+│
+├── scripts/
+│   └── (scripts utilitários)
+│
+├── tests/
+│   └── (testes unitários)
+│
+├── mkdocs.yml            # Configuração da documentação
+├── pyproject.toml        # Configuração do ambiente Python
+├── LICENSE
+└── README.md
+```
+
+---
+
+## 🧱 Arquitetura da Solução
 
 ![image](https://github.com/jlsilva01/projeto-ed-satc/assets/484662/541de6ab-03fa-49b3-a29f-dec8857360c1)
 
-## Pré-requisitos e ferramentas utilizadas
+---
 
-- **Linguagem:** Python 3.11+  
-- **Framework web:** FastAPI  
-- **Servidor ASGI:** Uvicorn  
-- **Qualidade de código:** pre-commit (ruff, black, isort, flake8, mypy)  
-- **Container:** Docker  
-- **Orquestração local:** Docker Compose  
-- **Documentação:** MkDocs + mkdocstrings + mkdocs-material
+## 🛠️ Ferramentas e Tecnologias
 
-```
-Dar exemplos
-```
+- **Python 3.12+**
+- **pytest**
+- **Databricks**
+- **Supabase**
+- **Metabase**
+- **Docker & Docker Compose**
+- **MkDocs Material**
+- **pre-commit**
+- **GitHub Actions**
 
-## Instalação
+---
 
-### 1. Clonar o repositório
+## 📚 Documentação
 
-```bash
-git clone https://github.com/jlsilva01/projeto-ed-satc.git
-cd projeto-ed-satc
-```
-
-### 2. Instalar dependências & pre-commit
+A documentação está configurada em MkDocs.  
+Para rodar localmente:
 
 ```bash
-uv venv
-source .venv/bin/activate
-uv sync
-
-# instalar hooks do pre-commit
-uv run pre-commit install
+pip install -r requirements.txt
+mkdocs serve
 ```
 
-### 3. Executar localmente
+Para gerar build estático:
 
 ```bash
-uv run uvicorn app.main:app --reload
+mkdocs build
 ```
 
-Acesse a API em `http://localhost:8000` e a documentação automática em:
-- Swagger UI: `http://localhost:8000/docs`
-- ReDoc:       `http://localhost:8000/redoc`
+---
 
-## Documentação (MkDocs)
+## 🧪 Testes
 
-Toda a documentação está em `docs/`:
+Execute os testes com:
 
 ```bash
-uv run mkdocs build
-uv run mkdocs serve
+pytest -v
 ```
 
-Acesse o site em `http://127.0.0.1:8000`.
+---
 
-Para publicar o site estático:
+## 🐳 Docker
+
+Build da imagem:
 
 ```bash
-uv run mkdocs gh-deploy
+docker build -t data-eng-project .
 ```
 
-## Colaboração
+Rodar container:
 
-1. Abra uma **issue** para discutir sua feature ou bug.  
-2. Crie um **branch**:  
+```bash
+docker run -it data-eng-project
+```
 
-   ```bash
-   git checkout -b feature/nome-da-sua-feature
-   ```
-3. Faça suas alterações e **commit** seguindo o [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).  
-4. Envie um **pull request** para `main`.  
-5. Aguarde revisão e merge.
+---
 
-## Versão
+## 👥 Autores
 
-Fale sobre a versão e o controle de versões para o projeto. 
+Substitua pelos participantes reais:
 
-## Autores
+- **João Vitor** – Organização do Projeto – https://github.com/joaovfe
+- **Eduardo** – Modelagem de Dados – https://github.com/EduarDomingos
+- **Arthur** – Pipeline de Dados – https://github.com/Arthu085
+- **Gabriel** – Dashboard – https://github.com/gabrieljloh
+- **Gustavo de Freitas** – Documentação – https://github.com/Freitas86
+- **Caroline** – Slides – https://github.com/
 
-Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
+---
 
-* **Aluno 1** - *Trabalho Inicial* - [(https://github.com/linkParaPerfil)](https://github.com/linkParaPerfil)
-* **Aluno 2** - *Documentação* - [https://github.com/linkParaPerfil](https://github.com/linkParaPerfil)
+## 📄 Licença
 
-## Licença
+Este projeto está licenciado sob os termos da licença **MIT**.  
+Veja o arquivo `LICENSE` para mais detalhes.
 
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE](https://github.com/jlsilva01/projeto-ed-satc/blob/main/LICENSE) para detalhes.   
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+---
 
-## Referências
+## 🔗 Referências
 
-Cite aqui todas as referências utilizadas neste projeto, pode ser outros repositórios, livros, artigos de internet etc.
-
+Listar aqui: fontes, artigos, repositórios ou materiais utilizados no desenvolvimento.
 
