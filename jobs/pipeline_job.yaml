@@ -19,11 +19,17 @@ resources:
           notebook_task:
             notebook_path: /Workspace/Users/{seu-email-databricks}/data-engineering-project/scripts/03_silver_layer.py
             source: WORKSPACE
-        - task_key: Gold_Layer
+        - task_key: Prepare_To_Gold
           depends_on:
             - task_key: Silver_Layer
           notebook_task:
-            notebook_path: /Workspace/Users/{seu-email-databricks}/data-engineering-project/scripts/04_gold_layer.py
+            notebook_path: /Workspace/Users/{seu-email-databricks}/data-engineering-project/scripts/04_prepare_to_gold.py
+            source: WORKSPACE
+        - task_key: Gold_Layer
+          depends_on:
+            - task_key: Prepare_To_Gold
+          notebook_task:
+            notebook_path: /Workspace/Users/{seu-email-databricks}/data-engineering-project/scripts/05_gold_layer.py
             source: WORKSPACE
       git_source:
         git_url: https://github.com/data-engineering-project-satc/data-engineering-project/tree/main
