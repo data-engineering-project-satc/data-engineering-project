@@ -16,15 +16,42 @@ except ImportError:
     print("📦 Para instalar: pip install psycopg2-binary")
     sys.exit(1)
 
-# Configuração de conexão
-DB_HOST = "aws-1-sa-east-1.pooler.supabase.com"
-DB_PORT = "5432"
-DB_NAME = "postgres"
-DB_USER = "postgres.XXXXXXXXXX"
-DB_PASSWORD = "PASSWORD"
+# carregar .env
+try:
+    from dotenv import load_dotenv
+except ImportError:
+    print("❌ Erro: python-dotenv não instalado!")
+    print("📦 Para instalar: pip install python-dotenv")
+    sys.exit(1)
 
+load_dotenv()
 
-CSV_DIR = "data/csv_data_simple"
+# Configuração de conexão (lida do .env)
+DB_HOST = os.getenv("DB_HOST")
+DB_PORT = os.getenv("DB_PORT", "5432")
+DB_NAME = os.getenv("DB_NAME")
+DB_USER = os.getenv("DB_USER")
+DB_PASSWORD = os.getenv("DB_PASSWORD")
+
+# Diretório CSV (opcional override pelo .env)
+CSV_DIR = os.getenv("CSV_DIR", "data/csv_data_simple")
+
+# validação básica das variáveis necessárias
+missing = []
+for name, val in [
+    ("DB_HOST", DB_HOST),
+    ("DB_PORT", DB_PORT),
+    ("DB_NAME", DB_NAME),
+    ("DB_USER", DB_USER),
+    ("DB_PASSWORD", DB_PASSWORD),
+]:
+    if not val:
+        missing.append(name)
+
+if missing:
+    print("❌ Variáveis de ambiente de conexão ausentes:", ", ".join(missing))
+    print("💡 Copie .env.example para .env e preencha os valores.")
+    sys.exit(1)
 
 IMPORT_ORDER = [
     "industries",
