@@ -1,0 +1,1001 @@
+id,city,state_abbr
+1,Miami,DE
+2,Los Angeles,WV
+3,Seattle,KS
+4,Charlotte,FL
+5,Tampa,CT
+6,Oakland,WV
+7,Mesa,CO
+8,Long Beach,NV
+9,Chicago,AK
+10,Philadelphia,IN
+11,Charlotte,NC
+12,Colorado Springs,AK
+13,Kansas City,IL
+14,Tulsa,TN
+15,Minneapolis,OH
+16,Las Vegas,IA
+17,Louisville,PA
+18,Seattle,AL
+19,New Orleans,HI
+20,Minneapolis,NV
+21,El Paso,LA
+22,San Jose,IN
+23,New Orleans,MI
+24,San Antonio,CO
+25,Oklahoma City,CT
+26,Nashville,MN
+27,Colorado Springs,KY
+28,Chicago,WA
+29,Baltimore,OH
+30,San Diego,MO
+31,Philadelphia,OK
+32,Denver,SD
+33,Raleigh,MS
+34,Atlanta,IL
+35,Tulsa,CA
+36,Chicago,TX
+37,Charlotte,WY
+38,Denver,CO
+39,Charlotte,CT
+40,Oklahoma City,LA
+41,Baltimore,SD
+42,Detroit,HI
+43,Detroit,MN
+44,Columbus,TX
+45,Seattle,VT
+46,Oakland,TN
+47,Phoenix,RI
+48,Miami,HI
+49,Mesa,WA
+50,San Francisco,HI
+51,Baltimore,MO
+52,Seattle,SD
+53,Minneapolis,OK
+54,Charlotte,UT
+55,Boston,WY
+56,Wichita,AR
+57,Charlotte,AZ
+58,Boston,MT
+59,Seattle,CA
+60,Columbus,OR
+61,Tulsa,MA
+62,Columbus,TN
+63,Albuquerque,MT
+64,Virginia Beach,NJ
+65,San Jose,KY
+66,Dallas,KS
+67,Tampa,OK
+68,Mesa,KY
+69,Tampa,PA
+70,Memphis,PA
+71,Portland,MS
+72,Charlotte,FL
+73,Tucson,NY
+74,Philadelphia,WI
+75,Houston,DE
+76,San Jose,SD
+77,Austin,UT
+78,Memphis,RI
+79,Phoenix,MO
+80,Oklahoma City,RI
+81,Baltimore,ND
+82,Indianapolis,OK
+83,New York,UT
+84,Arlington,DE
+85,Oakland,OH
+86,New Orleans,LA
+87,Wichita,TN
+88,El Paso,DE
+89,Denver,NV
+90,Austin,NJ
+91,New York,WA
+92,Arlington,KY
+93,Tucson,WI
+94,Jacksonville,NC
+95,San Antonio,SD
+96,Washington,SD
+97,Tucson,RI
+98,Fort Worth,GA
+99,Detroit,WI
+100,Austin,OH
+101,Wichita,ND
+102,New York,RI
+103,Boston,NY
+104,Los Angeles,DE
+105,Detroit,MD
+106,San Francisco,AR
+107,San Francisco,OR
+108,Philadelphia,CO
+109,Arlington,NY
+110,Phoenix,WI
+111,Mesa,WY
+112,Dallas,FL
+113,Omaha,NM
+114,Kansas City,HI
+115,Indianapolis,ND
+116,Colorado Springs,NV
+117,Columbus,OH
+118,New Orleans,WA
+119,Minneapolis,IL
+120,Tulsa,MD
+121,Portland,TX
+122,Virginia Beach,MS
+123,Louisville,ND
+124,Louisville,DE
+125,San Francisco,IA
+126,Phoenix,MI
+127,Los Angeles,PA
+128,Kansas City,IA
+129,Long Beach,IA
+130,New York,CA
+131,Tulsa,SD
+132,Houston,IA
+133,Phoenix,AZ
+134,El Paso,CA
+135,Tucson,KS
+136,Seattle,TX
+137,Albuquerque,IN
+138,Mesa,FL
+139,Arlington,OR
+140,Atlanta,NM
+141,San Francisco,NM
+142,Las Vegas,IL
+143,San Antonio,CT
+144,Omaha,NV
+145,Nashville,NV
+146,Las Vegas,NJ
+147,Arlington,AR
+148,Oakland,TN
+149,Virginia Beach,CT
+150,Houston,MT
+151,Arlington,MI
+152,San Antonio,KS
+153,Fort Worth,IL
+154,Mesa,NH
+155,Dallas,NV
+156,Jacksonville,LA
+157,Baltimore,KS
+158,Phoenix,NH
+159,Kansas City,CT
+160,Houston,TN
+161,Mesa,AL
+162,Philadelphia,WI
+163,San Francisco,HI
+164,Las Vegas,NY
+165,Milwaukee,IN
+166,Portland,AR
+167,Austin,MO
+168,New York,MO
+169,Indianapolis,NJ
+170,Denver,NV
+171,Minneapolis,WA
+172,Kansas City,TX
+173,Tulsa,NY
+174,San Jose,IL
+175,Denver,IN
+176,Houston,PA
+177,Tampa,OH
+178,Houston,WV
+179,Boston,AR
+180,Houston,PA
+181,Milwaukee,NC
+182,Fresno,HI
+183,Houston,NC
+184,Philadelphia,ID
+185,Phoenix,RI
+186,Phoenix,UT
+187,San Francisco,MT
+188,San Diego,OR
+189,San Francisco,PA
+190,Colorado Springs,AZ
+191,Raleigh,CO
+192,Las Vegas,TX
+193,Long Beach,OR
+194,Fresno,MA
+195,Indianapolis,IN
+196,Omaha,VA
+197,Boston,KS
+198,Indianapolis,MT
+199,Dallas,TX
+200,Virginia Beach,MD
+201,Baltimore,MA
+202,New Orleans,CA
+203,New York,NJ
+204,Raleigh,OR
+205,San Antonio,CA
+206,Mesa,IN
+207,Tucson,KY
+208,Dallas,MN
+209,Phoenix,KS
+210,Detroit,ME
+211,Austin,NH
+212,Mesa,VA
+213,Washington,SC
+214,Virginia Beach,ND
+215,New York,TX
+216,Kansas City,MD
+217,Omaha,CT
+218,Dallas,KY
+219,San Diego,CT
+220,Tampa,OK
+221,San Jose,LA
+222,Denver,RI
+223,Columbus,VA
+224,El Paso,IN
+225,Oakland,SD
+226,Indianapolis,NC
+227,Albuquerque,KY
+228,Houston,CO
+229,Miami,NV
+230,Seattle,AZ
+231,New York,MI
+232,Wichita,FL
+233,Miami,KY
+234,Austin,WV
+235,Louisville,OK
+236,Tulsa,NV
+237,Kansas City,AL
+238,San Diego,CA
+239,Minneapolis,GA
+240,Mesa,AZ
+241,Detroit,PA
+242,Kansas City,GA
+243,Memphis,FL
+244,Chicago,MD
+245,Detroit,AZ
+246,Nashville,IN
+247,Oakland,KS
+248,Omaha,CT
+249,Nashville,WY
+250,Kansas City,NE
+251,Raleigh,WV
+252,San Jose,KS
+253,Austin,ID
+254,Las Vegas,AK
+255,Jacksonville,WV
+256,El Paso,NE
+257,Omaha,WV
+258,San Francisco,LA
+259,Austin,VT
+260,San Antonio,MO
+261,Chicago,NM
+262,Charlotte,IL
+263,Baltimore,MN
+264,Washington,IA
+265,Charlotte,AK
+266,Omaha,IL
+267,Portland,MI
+268,Seattle,CA
+269,Wichita,LA
+270,Nashville,TN
+271,Tucson,MT
+272,Oakland,OH
+273,El Paso,AK
+274,San Diego,KY
+275,Jacksonville,PA
+276,Indianapolis,AZ
+277,San Antonio,RI
+278,Memphis,MN
+279,Arlington,MA
+280,Memphis,RI
+281,Tucson,DE
+282,Oklahoma City,OR
+283,Fort Worth,KY
+284,Chicago,VA
+285,Memphis,AL
+286,Fresno,OH
+287,Oakland,WA
+288,Tampa,WV
+289,Omaha,IL
+290,Detroit,NV
+291,Phoenix,TX
+292,El Paso,SC
+293,Boston,TX
+294,San Diego,WA
+295,Washington,NC
+296,Washington,TX
+297,Las Vegas,MA
+298,Portland,VT
+299,Denver,OK
+300,Dallas,IL
+301,Las Vegas,TX
+302,Oklahoma City,UT
+303,Tampa,ID
+304,Raleigh,OR
+305,Washington,MT
+306,Kansas City,AL
+307,Washington,ME
+308,Columbus,NV
+309,Long Beach,RI
+310,Virginia Beach,MA
+311,Baltimore,NH
+312,Louisville,UT
+313,Columbus,NC
+314,Milwaukee,WV
+315,Austin,TX
+316,Philadelphia,ME
+317,Tucson,TX
+318,Miami,SC
+319,El Paso,CO
+320,New Orleans,KS
+321,Oakland,MD
+322,Charlotte,IL
+323,San Jose,AK
+324,Chicago,KS
+325,Milwaukee,SC
+326,Wichita,CA
+327,Baltimore,NE
+328,Miami,OR
+329,Fort Worth,VA
+330,Minneapolis,MO
+331,Albuquerque,MT
+332,San Francisco,GA
+333,Virginia Beach,VT
+334,New York,WI
+335,Wichita,CT
+336,Wichita,NV
+337,Charlotte,ID
+338,Minneapolis,ND
+339,Baltimore,AR
+340,Kansas City,KS
+341,San Diego,NJ
+342,Dallas,NJ
+343,Omaha,ND
+344,Kansas City,RI
+345,Boston,WI
+346,Louisville,SC
+347,Arlington,NC
+348,Memphis,OK
+349,Louisville,HI
+350,Tampa,NM
+351,Louisville,KY
+352,New Orleans,KS
+353,Miami,LA
+354,Wichita,WY
+355,Fresno,NY
+356,Miami,KS
+357,Seattle,NH
+358,Phoenix,VA
+359,Denver,KS
+360,Seattle,MI
+361,Boston,OH
+362,Philadelphia,FL
+363,San Jose,IA
+364,Oklahoma City,VT
+365,San Jose,VA
+366,Columbus,CA
+367,Las Vegas,NE
+368,El Paso,OH
+369,Baltimore,NE
+370,Houston,IN
+371,Las Vegas,MO
+372,Wichita,PA
+373,Minneapolis,AK
+374,New Orleans,OR
+375,Oklahoma City,NM
+376,New York,MN
+377,Washington,WI
+378,Oklahoma City,NE
+379,Mesa,WV
+380,Tampa,OH
+381,Colorado Springs,IA
+382,Albuquerque,IA
+383,Seattle,NV
+384,Albuquerque,AK
+385,Oklahoma City,MI
+386,Omaha,UT
+387,Portland,WA
+388,Austin,NJ
+389,Dallas,SC
+390,Mesa,AK
+391,Portland,PA
+392,Atlanta,TX
+393,Los Angeles,CO
+394,Virginia Beach,NV
+395,Dallas,NJ
+396,Jacksonville,AR
+397,Indianapolis,MO
+398,Boston,IN
+399,Baltimore,MA
+400,El Paso,WI
+401,Oklahoma City,LA
+402,New Orleans,NE
+403,Indianapolis,CO
+404,Milwaukee,AK
+405,Tampa,OH
+406,Houston,MN
+407,Charlotte,TN
+408,Phoenix,WY
+409,Virginia Beach,AZ
+410,New Orleans,AK
+411,San Francisco,IL
+412,Los Angeles,SC
+413,San Jose,KS
+414,Dallas,NM
+415,Omaha,DE
+416,Atlanta,IN
+417,Baltimore,VT
+418,Indianapolis,WY
+419,Detroit,HI
+420,Colorado Springs,RI
+421,Tampa,VA
+422,San Diego,WY
+423,Austin,MD
+424,San Antonio,PA
+425,Los Angeles,MD
+426,Atlanta,UT
+427,Oklahoma City,MT
+428,Tulsa,IL
+429,Phoenix,PA
+430,Minneapolis,SD
+431,San Francisco,CT
+432,Minneapolis,WY
+433,Washington,UT
+434,Colorado Springs,DE
+435,Atlanta,AZ
+436,Nashville,OH
+437,Memphis,TX
+438,Detroit,CA
+439,Tucson,TN
+440,El Paso,AL
+441,Las Vegas,NY
+442,San Antonio,NV
+443,Detroit,SD
+444,Baltimore,VA
+445,San Jose,NV
+446,Jacksonville,WA
+447,Fresno,TN
+448,Seattle,SC
+449,Mesa,WY
+450,Milwaukee,NJ
+451,Memphis,WA
+452,Long Beach,LA
+453,Boston,KS
+454,Philadelphia,LA
+455,Louisville,KS
+456,New Orleans,NJ
+457,Atlanta,SC
+458,Omaha,MO
+459,El Paso,AK
+460,Albuquerque,MA
+461,Jacksonville,NY
+462,Columbus,MN
+463,Indianapolis,MI
+464,Seattle,RI
+465,Minneapolis,LA
+466,Kansas City,AL
+467,Fresno,IL
+468,Philadelphia,KS
+469,Arlington,NE
+470,Albuquerque,OK
+471,New Orleans,KS
+472,Minneapolis,NM
+473,Virginia Beach,VA
+474,Albuquerque,NH
+475,Los Angeles,CO
+476,Denver,IA
+477,Portland,VT
+478,San Francisco,MD
+479,Omaha,PA
+480,Detroit,NM
+481,Kansas City,ND
+482,Nashville,NV
+483,Tampa,OK
+484,El Paso,MN
+485,Minneapolis,NJ
+486,Seattle,MD
+487,Indianapolis,IA
+488,San Diego,WA
+489,Fort Worth,MA
+490,San Diego,WV
+491,Mesa,WI
+492,Minneapolis,ID
+493,Fort Worth,IN
+494,Tampa,NM
+495,Seattle,WA
+496,Long Beach,WI
+497,Fresno,RI
+498,Denver,CT
+499,Fort Worth,ME
+500,Charlotte,MS
+501,Jacksonville,MD
+502,New York,VA
+503,Mesa,FL
+504,Seattle,AZ
+505,Houston,OK
+506,Denver,VT
+507,Dallas,SD
+508,New Orleans,NY
+509,San Antonio,AL
+510,Atlanta,ME
+511,Milwaukee,NM
+512,Louisville,MI
+513,Jacksonville,AR
+514,Indianapolis,NM
+515,San Diego,CA
+516,Portland,NY
+517,Phoenix,OR
+518,Miami,UT
+519,Houston,GA
+520,San Jose,OR
+521,Washington,CO
+522,San Francisco,DE
+523,Kansas City,WI
+524,Las Vegas,RI
+525,Colorado Springs,SC
+526,Charlotte,WY
+527,Fresno,MO
+528,Louisville,NH
+529,Washington,PA
+530,Memphis,MD
+531,Atlanta,SC
+532,Houston,SC
+533,Tampa,CT
+534,New Orleans,IN
+535,Miami,IN
+536,Indianapolis,TX
+537,Philadelphia,HI
+538,San Francisco,ID
+539,Kansas City,CA
+540,Austin,AL
+541,Las Vegas,NH
+542,Minneapolis,RI
+543,Milwaukee,ME
+544,Chicago,IA
+545,Denver,VA
+546,Denver,VT
+547,Baltimore,CA
+548,Oakland,IA
+549,Indianapolis,SD
+550,Long Beach,TX
+551,Fort Worth,NV
+552,San Diego,OH
+553,Charlotte,TN
+554,San Jose,LA
+555,San Jose,CA
+556,Houston,HI
+557,Washington,RI
+558,Tampa,OR
+559,Denver,NH
+560,San Diego,NJ
+561,Minneapolis,MD
+562,Minneapolis,MT
+563,Seattle,NC
+564,Mesa,NY
+565,Louisville,CO
+566,Colorado Springs,AZ
+567,Memphis,WV
+568,Boston,RI
+569,Indianapolis,AK
+570,Philadelphia,IA
+571,Oakland,OR
+572,Long Beach,AK
+573,New Orleans,UT
+574,Seattle,OR
+575,Chicago,WI
+576,New Orleans,ID
+577,Milwaukee,ND
+578,Virginia Beach,NH
+579,Seattle,ID
+580,Long Beach,NV
+581,Miami,NY
+582,Philadelphia,NM
+583,Nashville,NE
+584,El Paso,MA
+585,Omaha,CT
+586,Austin,MI
+587,Las Vegas,VT
+588,Albuquerque,ME
+589,Omaha,MT
+590,New Orleans,OK
+591,Chicago,NJ
+592,Philadelphia,MA
+593,Indianapolis,MA
+594,San Diego,WY
+595,Portland,NC
+596,New York,TX
+597,Mesa,NJ
+598,Las Vegas,AR
+599,Fort Worth,ND
+600,Detroit,SC
+601,New Orleans,NY
+602,Miami,NH
+603,New Orleans,AR
+604,Columbus,LA
+605,Kansas City,FL
+606,Denver,NH
+607,Minneapolis,NY
+608,San Diego,AK
+609,Miami,RI
+610,San Francisco,VA
+611,Austin,MD
+612,Kansas City,AL
+613,Kansas City,NE
+614,Philadelphia,IA
+615,San Diego,NJ
+616,San Diego,TN
+617,San Jose,NY
+618,Tulsa,ME
+619,Tucson,VA
+620,Seattle,NE
+621,Milwaukee,NM
+622,San Francisco,NJ
+623,Kansas City,GA
+624,Oklahoma City,IL
+625,Colorado Springs,NC
+626,Tampa,FL
+627,Phoenix,LA
+628,Wichita,NE
+629,El Paso,NC
+630,Seattle,AL
+631,Denver,WA
+632,Washington,PA
+633,Long Beach,TX
+634,Albuquerque,GA
+635,Louisville,OH
+636,Milwaukee,MN
+637,El Paso,OK
+638,New Orleans,OH
+639,Oklahoma City,NJ
+640,Boston,IL
+641,Minneapolis,KS
+642,Atlanta,MO
+643,Charlotte,WY
+644,Las Vegas,AZ
+645,Boston,WV
+646,Milwaukee,VA
+647,Oklahoma City,MO
+648,Omaha,TN
+649,San Jose,NY
+650,Chicago,FL
+651,Tucson,PA
+652,El Paso,CT
+653,Louisville,CT
+654,Fresno,NJ
+655,New York,WA
+656,San Jose,NE
+657,Virginia Beach,GA
+658,Phoenix,NM
+659,Indianapolis,MI
+660,Raleigh,VT
+661,Portland,TN
+662,Philadelphia,MI
+663,Oakland,OH
+664,Oklahoma City,MA
+665,Miami,VA
+666,New Orleans,NY
+667,Mesa,AZ
+668,Raleigh,CA
+669,San Francisco,SD
+670,Oakland,ME
+671,Charlotte,WV
+672,Philadelphia,NV
+673,San Antonio,WI
+674,Miami,VA
+675,San Antonio,NH
+676,Austin,VT
+677,Washington,AK
+678,Chicago,MA
+679,Houston,ME
+680,Nashville,MS
+681,Memphis,GA
+682,San Francisco,ND
+683,Las Vegas,OR
+684,Oakland,ID
+685,Austin,ID
+686,Philadelphia,SC
+687,Oklahoma City,SC
+688,Oakland,KS
+689,Albuquerque,PA
+690,San Jose,IA
+691,Baltimore,SD
+692,Indianapolis,NJ
+693,Indianapolis,TX
+694,New York,NJ
+695,Denver,UT
+696,Mesa,HI
+697,Phoenix,NH
+698,Nashville,PA
+699,Washington,SD
+700,Memphis,VT
+701,Indianapolis,NJ
+702,Washington,IL
+703,Oklahoma City,NM
+704,San Antonio,KS
+705,Oklahoma City,OR
+706,Nashville,OR
+707,Denver,VT
+708,Denver,AK
+709,Omaha,MT
+710,Seattle,AL
+711,Atlanta,UT
+712,Wichita,WV
+713,Houston,RI
+714,Tampa,NY
+715,Denver,WY
+716,Charlotte,RI
+717,Nashville,IA
+718,Miami,IL
+719,Raleigh,KY
+720,Oakland,WI
+721,Arlington,WY
+722,Omaha,UT
+723,Dallas,SD
+724,San Antonio,SD
+725,Virginia Beach,AZ
+726,Washington,NH
+727,Chicago,PA
+728,Detroit,WA
+729,Dallas,CO
+730,Denver,MA
+731,Tampa,NE
+732,Jacksonville,IL
+733,Dallas,OH
+734,Detroit,ND
+735,Tucson,LA
+736,Austin,KY
+737,Milwaukee,ME
+738,Tampa,MI
+739,San Diego,NJ
+740,Phoenix,GA
+741,New Orleans,IA
+742,Oakland,WA
+743,Oakland,MT
+744,Kansas City,MS
+745,Philadelphia,MT
+746,New York,KY
+747,Mesa,DE
+748,Baltimore,MS
+749,Oakland,WV
+750,Oakland,KY
+751,Long Beach,MO
+752,Miami,MS
+753,San Antonio,UT
+754,Charlotte,NM
+755,Los Angeles,SC
+756,Kansas City,MA
+757,Raleigh,IA
+758,Virginia Beach,CA
+759,Miami,NJ
+760,Minneapolis,MD
+761,Virginia Beach,NE
+762,San Diego,FL
+763,Chicago,AZ
+764,Washington,NY
+765,San Diego,CT
+766,San Francisco,OH
+767,Dallas,MO
+768,Baltimore,MS
+769,Omaha,WV
+770,Minneapolis,OH
+771,Las Vegas,PA
+772,Tampa,WA
+773,San Jose,NE
+774,Virginia Beach,CT
+775,Albuquerque,SC
+776,Las Vegas,LA
+777,Chicago,VT
+778,Detroit,IN
+779,Louisville,NH
+780,San Francisco,MS
+781,San Antonio,UT
+782,Detroit,OH
+783,Virginia Beach,MN
+784,Houston,MT
+785,Seattle,IL
+786,San Diego,NJ
+787,Philadelphia,TX
+788,Columbus,TN
+789,Miami,RI
+790,Los Angeles,AR
+791,El Paso,KS
+792,Dallas,OR
+793,Columbus,CA
+794,New Orleans,OK
+795,Columbus,PA
+796,Columbus,IA
+797,El Paso,WY
+798,San Jose,RI
+799,New York,LA
+800,San Jose,FL
+801,Mesa,KY
+802,Jacksonville,DE
+803,Omaha,AK
+804,Dallas,AL
+805,Nashville,KS
+806,Long Beach,MA
+807,Los Angeles,ID
+808,Indianapolis,AR
+809,Dallas,WV
+810,Las Vegas,ND
+811,San Diego,WV
+812,Phoenix,NM
+813,Louisville,WY
+814,Detroit,NC
+815,Long Beach,CT
+816,Louisville,NC
+817,Charlotte,SC
+818,Chicago,WA
+819,Omaha,ND
+820,Washington,NJ
+821,Virginia Beach,AK
+822,Houston,NM
+823,Portland,NV
+824,Oakland,CT
+825,Albuquerque,VA
+826,Louisville,CA
+827,Philadelphia,MA
+828,Colorado Springs,GA
+829,Phoenix,FL
+830,Seattle,SC
+831,Miami,PA
+832,Kansas City,VA
+833,Boston,MO
+834,Colorado Springs,ND
+835,Denver,NJ
+836,Tucson,RI
+837,Memphis,CT
+838,Minneapolis,DE
+839,Virginia Beach,TN
+840,Wichita,OK
+841,Arlington,IN
+842,Memphis,NH
+843,Charlotte,NE
+844,El Paso,NJ
+845,Portland,NE
+846,Arlington,CT
+847,Boston,NV
+848,Boston,TX
+849,Indianapolis,MS
+850,San Jose,UT
+851,Milwaukee,CA
+852,Philadelphia,CO
+853,Philadelphia,NV
+854,San Antonio,WV
+855,Tampa,MS
+856,Dallas,OK
+857,Houston,PA
+858,Kansas City,OK
+859,El Paso,TX
+860,San Diego,NE
+861,Nashville,TX
+862,New Orleans,NV
+863,Arlington,AR
+864,Denver,RI
+865,Washington,MN
+866,San Antonio,OR
+867,Tucson,IN
+868,San Jose,TX
+869,Milwaukee,IA
+870,San Antonio,MN
+871,Kansas City,MS
+872,San Diego,WI
+873,Seattle,OR
+874,Charlotte,NV
+875,Kansas City,WY
+876,Raleigh,SC
+877,Oakland,TN
+878,Kansas City,AK
+879,Colorado Springs,TX
+880,Minneapolis,LA
+881,Los Angeles,ID
+882,Seattle,VT
+883,New Orleans,MD
+884,El Paso,MN
+885,New York,ID
+886,San Jose,OR
+887,Omaha,MT
+888,Phoenix,GA
+889,Tampa,SD
+890,Los Angeles,CO
+891,Tampa,ND
+892,Columbus,MO
+893,Las Vegas,NJ
+894,El Paso,HI
+895,Detroit,MD
+896,Arlington,MA
+897,Wichita,OR
+898,Colorado Springs,CO
+899,Houston,GA
+900,Austin,WI
+901,Raleigh,AR
+902,Oakland,CO
+903,Seattle,NH
+904,Omaha,NV
+905,Albuquerque,RI
+906,Louisville,NE
+907,Seattle,IN
+908,New Orleans,NC
+909,San Diego,MN
+910,Memphis,DE
+911,Denver,UT
+912,Oakland,PA
+913,Albuquerque,ND
+914,Omaha,MD
+915,Chicago,IA
+916,Portland,RI
+917,Houston,AL
+918,Columbus,MD
+919,Columbus,WY
+920,Dallas,WI
+921,Indianapolis,ME
+922,Boston,DE
+923,New York,NY
+924,Tampa,NV
+925,Jacksonville,FL
+926,Oklahoma City,OH
+927,Tulsa,IA
+928,Tucson,OK
+929,Omaha,MN
+930,Phoenix,MT
+931,Tampa,AZ
+932,Memphis,AK
+933,Baltimore,CA
+934,Boston,OR
+935,Memphis,OR
+936,Portland,VA
+937,Miami,NE
+938,Denver,DE
+939,Portland,AK
+940,Boston,HI
+941,Raleigh,NJ
+942,Minneapolis,MS
+943,Philadelphia,NV
+944,San Antonio,KS
+945,Memphis,PA
+946,Portland,ND
+947,Philadelphia,MT
+948,Washington,WV
+949,El Paso,IA
+950,El Paso,WY
+951,Austin,CA
+952,Tucson,SD
+953,San Diego,ND
+954,Tucson,IL
+955,Wichita,MN
+956,Nashville,WA
+957,Virginia Beach,GA
+958,San Francisco,CT
+959,San Jose,KY
+960,Fort Worth,ID
+961,Colorado Springs,GA
+962,New Orleans,WI
+963,Virginia Beach,CA
+964,Jacksonville,WY
+965,Miami,NY
+966,Baltimore,WI
+967,Atlanta,WI
+968,Long Beach,NH
+969,Oakland,OR
+970,Virginia Beach,SD
+971,Raleigh,MA
+972,Miami,MA
+973,San Jose,NH
+974,Phoenix,NM
+975,Louisville,SD
+976,Washington,LA
+977,Long Beach,AR
+978,Nashville,NC
+979,Phoenix,MD
+980,Baltimore,NH
+981,Chicago,AR
+982,Detroit,ME
+983,Phoenix,TN
+984,Philadelphia,SC
+985,Colorado Springs,NC
+986,Oklahoma City,NJ
+987,Long Beach,OK
+988,Tampa,AZ
+989,Louisville,OR
+990,Virginia Beach,IL
+991,Boston,RI
+992,Milwaukee,NC
+993,San Jose,AR
+994,Louisville,CT
+995,El Paso,VA
+996,Philadelphia,NC
+997,Virginia Beach,ID
+998,Chicago,KS
+999,Tulsa,NH
+1000,Louisville,ND

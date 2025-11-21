@@ -1,0 +1,49 @@
+# Data Engineering Project - Requirements
+# ====================================
+
+# Core data processing libraries
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Database connectivity
+psycopg2-binary>=2.9.0
+
+# Data generation and faker
+Faker>=18.0.0
+
+# Additional data processing
+openpyxl>=3.1.0
+xlsxwriter>=3.1.0
+
+# Development and testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Code formatting and linting
+black>=23.0.0
+flake8>=6.0.0
+isort>=5.12.0
+
+# Jupyter notebook support (optional)
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Data visualization (optional)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Performance monitoring
+tqdm>=4.65.0
+
+# HTTP requests (for APIs)
+requests>=2.31.0
+
+# Date/time utilities
+python-dateutil>=2.8.0
+
+# Configuration management
+pyyaml>=6.0.0
