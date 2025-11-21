@@ -45,7 +45,7 @@ data-engineering-project/
 
 ## 🧱 Arquitetura da Solução
 
-![image](https://github.com/jlsilva01/projeto-ed-satc/assets/484662/541de6ab-03fa-49b3-a29f-dec8857360c1)
+![image](/docs/architecture.png)
 
 ---
 
