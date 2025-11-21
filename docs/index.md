@@ -1,21 +1,42 @@
 ---
 hide:
   - navigation
-  #- toc # table of contents - menu da direita
 ---
 
-# Projeto Engenharia de Dados
+# 🚀 Projeto de Engenharia de Dados
 
-Trabalho desenvolvido para a disciplina de Engenharia de dados do Curso de Engenharia da Software da UNISATC.
-A proposta do projeto e desenvolver uma pipeline de engenharia de dados...
+Este trabalho foi desenvolvido para a disciplina de **Engenharia de Dados** do Curso de **Engenharia de Software da UNISATC**.
 
-## Principais comandos do MkDocs
+O objetivo do projeto é **construir uma pipeline completa de engenharia de dados**, passando por todas as etapas essenciais:
 
-* `mkdocs new [dir-name]` - Cria um novo projeto.
-* `mkdocs serve` - Inicia o preview das paginas *.md da pastas /docs.
-* `mkdocs build` - Cria a estrutura de paginas web no padrao hmtl, css, js.
-* `mkdocs gh-deploy` - Publica as paginas criadas pelo 'mkdocs build' na estrutura do github pages.
+- Coleta e ingestão de dados  
+- Processamento e transformação  
+- Estruturação em camadas  
+- Armazenamento otimizado  
+- Versionamento de código  
+- Documentação e boas práticas  
 
-## Documentacao para referencia e estudo
-[https://tutorial-mkdocs.systemhealthlab.com/flavoured_markdown.html](https://tutorial-mkdocs.systemhealthlab.com/flavoured_markdown.html)  
-[https://squidfunk.github.io/mkdocs-material/reference/](https://squidfunk.github.io/mkdocs-material/reference/)
+---
+
+## 🧱 O que você encontra neste projeto?
+
+!!! info "Arquitetura e Estrutura"
+    O projeto utiliza um conjunto moderno de ferramentas, incluindo:
+    
+    - **Python**  
+    - **Databricks**  
+    - **Jupyter Notebook** 
+    - **Metabase**  
+    - **Supabase**  
+    - **MkDocs + Material Theme**
+    - **Markdown + Extensões de Documentação**
+    - **Git e GitHub**
+
+---
+
+## 📦 Comandos Essenciais do MkDocs
+
+Abaixo estão os principais comandos utilizados para gerenciar a documentação do projeto:
+
+- teste
+- teste
