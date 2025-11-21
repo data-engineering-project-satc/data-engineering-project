@@ -2,7 +2,7 @@ services:
   metabase:
     image: metabase/metabase:latest
     ports:
-      - "7000:7000"
+      - "7000:3000"
     volumes:
       - metabase-data:/metabase-data
     environment:
