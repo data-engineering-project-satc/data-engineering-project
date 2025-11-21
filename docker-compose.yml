@@ -1,20 +1,12 @@
-version: "3.9"
 services:
   metabase:
     image: metabase/metabase:latest
-    container_name: metabase
     ports:
-      - "3000:3000"
-
-  mkdocs:
-    # build:
-    #   context: .
-    #   dockerfile: DockerFile
-    image: squidfunk/mkdocs-material
-    container_name: mkdocs
-    ports:
-      - "8000:8000"
+      - "7000:3000"
     volumes:
-      - ./docs:/docs
-    working_dir: /docs
-    command: serve -a 0.0.0.0:8000
+      - metabase-data:/metabase-data
+    environment:
+      - MB_DB_FILE=/metabase-data/metabase.db
+
+volumes:
+  metabase-data:

@@ -1,0 +1,120 @@
+# ------------------------------------------------------------------------------
+# Informações do Site
+# ------------------------------------------------------------------------------
+site_name: Engenharia de Dados SATC
+site_description: Documentação do projeto data-engineering-project
+site_author: Gustavo de Freitas
+site_url: https://data-engineering-project-satc.github.io/data-engineering-project/
+site_favicon: images/favicon.png
+site_logo: images/logo.png
+site_keywords:
+  - Engenharia de Dados
+  - Engenharia de Software
+  - SATC
+  - Python
+  - Jupyter
+  - Git
+  - GitHub
+  - Markdown
+  - MkDocs
+  - Material Theme
+
+# ------------------------------------------------------------------------------
+# Repositório
+# ------------------------------------------------------------------------------
+repo_name: data-engineering-project
+repo_url: https://github.com/data-engineering-project-satc
+edit_uri: edit/master/docs/
+
+# ------------------------------------------------------------------------------
+# Navegação
+# ------------------------------------------------------------------------------
+nav:
+  - Home: index.md
+  - Sobre: sobre.md
+
+# ------------------------------------------------------------------------------
+# Tema
+# ------------------------------------------------------------------------------
+theme:
+  name: material
+  language: pt-BR
+  palette:
+    scheme: default
+    primary: blue
+    accent: light-blue
+  logo: images/logo.png
+
+  features:
+    # Navegação
+    - navigation.top
+    - navigation.footer
+    - navigation.path
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.next-prev
+
+    # Utilidades
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+  icon:
+    repo: fontawesome/brands/github
+
+# ------------------------------------------------------------------------------
+# Controle de elementos visuais
+# ------------------------------------------------------------------------------
+hide:
+  - toc            # oculta TOC lateral
+  # - navigation   # (caso precisar esconder o menu lateral, só ativar)
+  # - search       
+
+# ------------------------------------------------------------------------------
+# Extras
+# ------------------------------------------------------------------------------
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/data-engineering-project-satc
+  generator: false
+
+copyright: >
+  Copyright © 2025 -
+  <a href="#" target="_blank"><b>Gustavo de Freitas / Arthur / Gabriel / Eduardo / João Vitor / Caroline</b></a> -
+  Todos os direitos reservados.
+
+# ------------------------------------------------------------------------------
+# Arquivos adicionais (CSS / JS)
+# ------------------------------------------------------------------------------
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+# ------------------------------------------------------------------------------
+# Plugins
+# ------------------------------------------------------------------------------
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
+
+# ------------------------------------------------------------------------------
+# Extensões Markdown
+# ------------------------------------------------------------------------------
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.critic
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

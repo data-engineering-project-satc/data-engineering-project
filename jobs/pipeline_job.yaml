@@ -1,0 +1,40 @@
+resources:
+  jobs:
+    Pipeline_Engenharia_de_Dados:
+      name: Pipeline - Engenharia de Dados
+      tasks:
+        - task_key: Ingestion_Landing
+          notebook_task:
+            notebook_path: /Workspace/Users/{seu-email-databricks}/data-engineering-project/scripts/01_ingestion_landing.py
+            source: WORKSPACE
+        - task_key: Bronze_Layer
+          depends_on:
+            - task_key: Ingestion_Landing
+          notebook_task:
+            notebook_path: /Workspace/Users/{seu-email-databricks}/data-engineering-project/scripts/02_bronze_layer.py
+            source: WORKSPACE
+        - task_key: Silver_Layer
+          depends_on:
+            - task_key: Bronze_Layer
+          notebook_task:
+            notebook_path: /Workspace/Users/{seu-email-databricks}/data-engineering-project/scripts/03_silver_layer.py
+            source: WORKSPACE
+        - task_key: Prepare_To_Gold
+          depends_on:
+            - task_key: Silver_Layer
+          notebook_task:
+            notebook_path: /Workspace/Users/{seu-email-databricks}/data-engineering-project/scripts/04_prepare_to_gold.py
+            source: WORKSPACE
+        - task_key: Gold_Layer
+          depends_on:
+            - task_key: Prepare_To_Gold
+          notebook_task:
+            notebook_path: /Workspace/Users/{seu-email-databricks}/data-engineering-project/scripts/05_gold_layer.py
+            source: WORKSPACE
+      git_source:
+        git_url: https://github.com/data-engineering-project-satc/data-engineering-project/tree/main
+        git_provider: gitHub
+        git_branch: 3-arquitetura-medalhao---pipeline
+      queue:
+        enabled: true
+      performance_target: PERFORMANCE_OPTIMIZED
