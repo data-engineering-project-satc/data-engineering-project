@@ -26,6 +26,9 @@ data-engineering-project/
 ├── docs/
 │   └── (arquivos-fonte da documentação)
 │
+├── jobs/
+│   └── (jobs para auxílio na execução da pipeline)
+|
 ├── scripts/
 │   └── (scripts utilitários)
 │
