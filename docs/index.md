@@ -38,5 +38,8 @@ O objetivo do projeto é **construir uma pipeline completa de engenharia de dado
 
 Abaixo estão os principais comandos utilizados para gerenciar a documentação do projeto:
 
-- teste
-- teste
+- `mkdocs serve` → Inicia um servidor local para pré-visualizar a documentação no navegador.
+- `mkdocs build` → Gera a documentação estática na pasta `site/`.
+- `mkdocs serve -a 0.0.0.0:8000` → Inicia o servidor local acessível em outras máquinas da rede.
+- `mkdocs gh-deploy` → Publica a documentação no GitHub Pages.
+- `mkdocs -h` → Exibe a ajuda com todos os comandos e opções disponíveis.
