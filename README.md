@@ -129,5 +129,5 @@ Veja o arquivo `LICENSE` para mais detalhes.
 
 ## 🔗 Referências
 
-Listar aqui: fontes, artigos, repositórios ou materiais utilizados no desenvolvimento.
+- **https://github.com/jlsilva01/projeto-ed-satc**
 
