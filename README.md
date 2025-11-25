@@ -116,7 +116,7 @@ Substitua pelos participantes reais:
 - **Arthur** – Pipeline de Dados – https://github.com/Arthu085
 - **Gabriel** – Dashboard – https://github.com/gabrieljloh
 - **Gustavo de Freitas** – Documentação – https://github.com/Freitas86
-- **Caroline** – Slides – https://github.com/
+- **Caroline** – Slides – https://github.com/anagregorioo
 
 ---
 
