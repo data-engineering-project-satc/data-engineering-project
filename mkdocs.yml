@@ -5,19 +5,6 @@ site_name: Engenharia de Dados SATC
 site_description: Documentação do projeto data-engineering-project
 site_author: Gustavo de Freitas
 site_url: https://data-engineering-project-satc.github.io/data-engineering-project/
-site_favicon: images/favicon.png
-site_logo: images/logo.png
-site_keywords:
-  - Engenharia de Dados
-  - Engenharia de Software
-  - SATC
-  - Python
-  - Jupyter
-  - Git
-  - GitHub
-  - Markdown
-  - MkDocs
-  - Material Theme
 
 # ------------------------------------------------------------------------------
 # Repositório
@@ -43,7 +30,6 @@ theme:
     scheme: default
     primary: blue
     accent: light-blue
-  logo: images/logo.png
 
   features:
     # Navegação
@@ -61,14 +47,6 @@ theme:
 
   icon:
     repo: fontawesome/brands/github
-
-# ------------------------------------------------------------------------------
-# Controle de elementos visuais
-# ------------------------------------------------------------------------------
-hide:
-  - toc            # oculta TOC lateral
-  # - navigation   # (caso precisar esconder o menu lateral, só ativar)
-  # - search       
 
 # ------------------------------------------------------------------------------
 # Extras
