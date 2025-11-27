@@ -5,7 +5,7 @@ hide:
 
 # Sobre o Projeto
 
-## 🧠 Visão Geral
+## - Visão Geral
 
 O **data-engineering-project** tem como propósito desenvolver uma arquitetura moderna de dados utilizando ferramentas amplamente aplicadas no mercado, como **Python**, **Databricks**, **Jupyter**, **Metabase**, **Supabase** e boas práticas de versionamento com **Git/GitHub**.
 
@@ -13,7 +13,7 @@ O projeto integra práticas fundamentais de engenharia de dados, incluindo o des
 
 ---
 
-## 👥 Equipe do Projeto
+## - Equipe do Projeto
 
 <div class="grid cards" markdown>
 
@@ -28,7 +28,7 @@ O projeto integra práticas fundamentais de engenharia de dados, incluindo o des
 
 ---
 
-## 📚 Tecnologias Utilizadas
+## - Tecnologias Utilizadas
 
 ??? info "Ferramentas e Tecnologias"
     - **Python**  
