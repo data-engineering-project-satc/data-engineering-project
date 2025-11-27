@@ -66,6 +66,11 @@ data-engineering-project/
 ## - Documentação
 
 A documentação está configurada em MkDocs.  
+
+URLS Públicas para visualização:
+- Dashboard: http://72.60.7.156:7000/public/dashboard/2b18ac0c-ec5f-42b1-a12f-695e25684a8a
+- Mkdocs: https://data-engineering-project-satc.github.io/data-engineering-project/
+
 Para rodar localmente:
 
 ```bash
