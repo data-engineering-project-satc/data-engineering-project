@@ -1,6 +1,6 @@
 # Data Engineering Project – MkDocs Template
 
-## 🚀 Visão Geral
+## - Visão Geral
 
 Este projeto fornece uma estrutura base para:
 
@@ -12,7 +12,7 @@ Este projeto fornece uma estrutura base para:
 
 ---
 
-## 📁 Estrutura do Projeto
+## - Estrutura do Projeto
 
 ```
 data-engineering-project/
@@ -43,13 +43,13 @@ data-engineering-project/
 
 ---
 
-## 🧱 Arquitetura da Solução
+## - Arquitetura da Solução
 
 ![image](/docs/architecture.png)
 
 ---
 
-## 🛠️ Ferramentas e Tecnologias
+## - Ferramentas e Tecnologias
 
 - **Python 3.12+**
 - **pytest**
@@ -63,7 +63,7 @@ data-engineering-project/
 
 ---
 
-## 📚 Documentação
+## - Documentação
 
 A documentação está configurada em MkDocs.  
 Para rodar localmente:
@@ -81,7 +81,7 @@ mkdocs build
 
 ---
 
-## 🧪 Testes
+## - Testes
 
 Execute os testes com:
 
@@ -91,7 +91,7 @@ pytest -v
 
 ---
 
-## 🐳 Docker
+## - Docker
 
 Build da imagem:
 
@@ -107,7 +107,7 @@ docker run -it data-eng-project
 
 ---
 
-## 👥 Autores
+## - Autores
 
 Substitua pelos participantes reais:
 
@@ -120,14 +120,14 @@ Substitua pelos participantes reais:
 
 ---
 
-## 📄 Licença
+## - Licença
 
 Este projeto está licenciado sob os termos da licença **MIT**.  
 Veja o arquivo `LICENSE` para mais detalhes.
 
 ---
 
-## 🔗 Referências
+## - Referências
 
 - **https://github.com/jlsilva01/projeto-ed-satc**
 
