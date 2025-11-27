@@ -3,7 +3,7 @@ hide:
   - navigation
 ---
 
-# 🚀 Projeto de Engenharia de Dados
+# - Projeto de Engenharia de Dados
 
 Este trabalho foi desenvolvido para a disciplina de **Engenharia de Dados** do Curso de **Engenharia de Software da UNISATC**.
 
@@ -18,7 +18,7 @@ O objetivo do projeto é **construir uma pipeline completa de engenharia de dado
 
 ---
 
-## 🧱 O que você encontra neste projeto?
+## - O que você encontra neste projeto?
 
 !!! info "Arquitetura e Estrutura"
     O projeto utiliza um conjunto moderno de ferramentas, incluindo:
@@ -34,7 +34,7 @@ O objetivo do projeto é **construir uma pipeline completa de engenharia de dado
 
 ---
 
-## 📦 Comandos Essenciais do MkDocs
+## - Comandos Essenciais do MkDocs
 
 Abaixo estão os principais comandos utilizados para gerenciar a documentação do projeto:
 
