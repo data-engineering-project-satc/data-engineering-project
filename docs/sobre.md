@@ -42,7 +42,7 @@ O projeto integra práticas fundamentais de engenharia de dados, incluindo o des
 
 ---
 
-## 🏁 Estado Atual
+## - Estado Atual
 
 !!! success "Em Desenvolvimento"
     O projeto está sendo expandido continuamente, com ajustes na arquitetura, evolução dos pipelines e aprimoramento da documentação.
